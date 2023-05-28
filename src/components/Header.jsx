@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-import Img from "./sabri.png";
+import Img from "./SABRIJOUD.png";
+
 export default function Header() {
   const [pageState, setPageState] = useState("Sign in");
   const location = useLocation();
